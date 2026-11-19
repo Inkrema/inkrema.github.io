@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; font-src data:">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Čárky v angličtině</title>
+<style>
+  :root { --ink:#1d2b2a; --muted:#5b6b69; --line:#c9d3d1; --soft:#eef3f2; --ok:#2f6b3a; --bad:#9b2c2c; --blue:#2c5d93; --warn:#7a5a00; }
+  body { font: 15px/1.45 system-ui, "Segoe UI", sans-serif; color:var(--ink); background:#fff; margin:0; padding:24px 16px; }
+  main { max-width: 1000px; margin: 0 auto; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 26px 0 8px; color: var(--blue); }
+  p { margin: 4px 0; }
+  .muted { color: var(--muted); }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; }
+  th, td { border: 1px solid var(--line); padding: 6px 8px; vertical-align: top; text-align: left; }
+  th { background: var(--soft); }
+  td:first-child { width: 28px; font-weight: 600; color: var(--muted); }
+  .ok { color: var(--ok); } .bad { color: var(--bad); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .cz { color: var(--muted); font-size: 13.5px; }
+  .tag { display:inline-block; font-size:12px; font-weight:600; padding:1px 7px; border-radius:10px; margin-left:4px; }
+  .err { background:#f7e3e3; color:var(--bad); } .opt { background:#fbf1d6; color:var(--warn); }
+  .box { border:1px solid var(--line); background:var(--soft); border-radius:6px; padding:10px 14px; margin:10px 0; }
+  em { font-style: normal; font-family: Georgia, "Times New Roman", serif; }
+  @media print { body { padding:0; font-size:11.5px; } h2 { break-after: avoid; } tr { break-inside: avoid; } }
+</style>
+<meta name="robots" content="noindex">
+</head>
+<body>
+<main>
+<h1>Čárky v angličtině: tahák pro češtináře</h1>
+<p class="muted">Pro učitele (anotace esejí) i pokročilé studenty. Ověřeno nezávislou kontrolou (Gemini Argon, 2. 11. 2026) proti Cambridge Grammar, Purdue OWL a příručce ÚJČ. Největší potíž je, že <b>česká čárka se řídí stavbou souvětí, anglická smyslem a čitelností</b>. Před <i>že, který, kde, aby</i> píše čeština čárku vždy, angličtina skoro nikdy. Štítek <span class="tag err">chyba</span> znamená porušení pravidla, <span class="tag opt">volba</span> označuje věc stylu (při anotaci ji nepočítejte jako chybu).</p>
+
+<div class="box"><b>Pět nejčastějších chyb Čechů:</b>
+<ol style="margin:4px 0 0 18px; padding:0">
+<li>čárka před <em>that</em> („že“): <span class="bad"><em>I think, that he is right.</em></span>, správně <span class="ok"><em>I think that he is right.</em></span>;</li>
+<li>čárka před určující vztažnou větou: <span class="bad"><em>The book, that I read was good.</em></span>, správně <span class="ok"><em>The book that I read was good.</em></span>;</li>
+<li>čárka před nepřímou otázkou: <span class="bad"><em>I don't know, where he lives.</em></span>, správně <span class="ok"><em>I don't know where he lives.</em></span>;</li>
+<li>dvě hlavní věty spojené jen čárkou (<i>comma splice</i>): <span class="bad"><em>It was late, we went home.</em></span>;</li>
+<li>čárka mezi podmětem a slovesem u dlouhého podmětu: <span class="bad"><em>What he said yesterday, surprised me.</em></span></li>
+</ol></div>
+
+<h2>A. Kde čárka NENÍ (na rozdíl od češtiny)</h2>
+<table>
+<tr><th>#</th><th>Pravidlo</th><th>Příklad</th><th></th></tr>
+<tr><td>1</td><td><b>Před <em>that</em> po slovesech myšlení a řeči</b> (že)</td><td><span class="ok"><em>She said that she was tired.</em></span><br><span class="cz">Řekla, že je unavená.</span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>2</td><td><b>Před určující vztažnou větou</b> (<em>that / who / which</em> vybírá, o kom nebo o čem je řeč)</td><td><span class="ok"><em>Students who cheat will fail.</em></span> (jen ti, kdo podvádějí)<br><span class="cz">Studenti, kteří podvádějí, neuspějí.</span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>3</td><td><b>Před nepřímou otázkou</b> (<em>where, what, if, whether, why</em>)</td><td><span class="ok"><em>Nobody knows why she left.</em></span><br><span class="cz">Nikdo neví, proč odešla.</span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>4</td><td><b>Před infinitivem s <em>to</em></b> (aby)</td><td><span class="ok"><em>I came to help you.</em></span><br><span class="cz">Přišel jsem, abych ti pomohl.</span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>5</td><td><b>Mezi podmětem a slovesem</b>, i když je podmět dlouhý</td><td><span class="ok"><em>The number of students who failed the test was surprising.</em></span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>6</td><td><b>Před <em>than</em> a <em>as</em> ve srovnání</b> (než, jako)</td><td><span class="ok"><em>He is older than I expected.</em></span> / <span class="ok"><em>She did it as she had promised.</em></span><br><span class="cz">Je starší, než jsem čekal. Udělala to, jak slíbila.</span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>7</td><td><b>Vedlejší věta ZA hlavní</b> (<em>because, when, if, until, before, after, unless</em>)</td><td><span class="ok"><em>We stayed inside because it was raining.</em></span><br><span class="cz">Zůstali jsme uvnitř, protože pršelo.</span></td><td><span class="tag err">chyba</span>; u <em>although, though, whereas</em> <span class="tag opt">volba</span></td></tr>
+<tr><td>8</td><td><b>Před druhým přísudkem bez nového podmětu</b> (<em>and, but</em> + sloveso)</td><td><span class="ok"><em>He called her but didn't leave a message.</em></span><br><span class="bad"><em>He called her, but didn't leave a message.</em></span></td><td><span class="tag err">chyba</span></td></tr>
+</table>
+
+<h2>B. Kde čárka JE</h2>
+<table>
+<tr><th>#</th><th>Pravidlo</th><th>Příklad</th><th></th></tr>
+<tr><td>9</td><td><b>Vedlejší věta PŘED hlavní</b></td><td><span class="ok"><em>If it rains, we'll stay at home.</em></span> / <span class="ok"><em>When I arrived, everyone had left.</em></span></td><td><span class="tag opt">volba</span> u velmi krátké věty</td></tr>
+<tr><td>10</td><td><b>Vsuvková (neurčující) vztažná věta</b>: doplňující informace, <em>which / who / where</em>, nikdy <em>that</em></td><td><span class="ok"><em>My sister, who lives in Brno, is a doctor.</em></span> (mám jen jednu sestru)<br><span class="ok"><em>Prague, which is the capital, is crowded.</em></span></td><td><span class="tag err">chyba</span> když chybí</td></tr>
+<tr><td>11</td><td><b><em>which</em> odkazující na celou větu</b></td><td><span class="ok"><em>He passed the exam, which surprised everyone.</em></span></td><td><span class="tag err">chyba</span> když chybí</td></tr>
+<tr><td>12</td><td><b>Dvě hlavní věty spojené <em>and, but, or, so, yet</em></b></td><td><span class="ok"><em>It was late, so we went home.</em></span> / <span class="ok"><em>I called him but he didn't answer.</em></span> i s čárkou</td><td><span class="tag opt">volba</span>: AmE čárku obvykle píše, BrE ji před <em>and, but, or</em> často vynechává</td></tr>
+<tr><td>13</td><td><b>Úvodní výrazy na začátku věty</b>: <em>However, Therefore, In addition, Moreover, On the other hand</em>; i úvodní <em>to</em>-infinitiv</td><td><span class="ok"><em>However, the results were disappointing.</em></span><br><span class="ok"><em>To be honest, I didn't like it.</em></span> / <span class="ok"><em>To get a seat, come early.</em></span></td><td><span class="tag opt">volba</span> po krátkém příslovci (<em>Today we…</em>)</td></tr>
+<tr><td>14</td><td><b>Spojovací výrazy uprostřed věty</b> mezi čárkami (<em>however, for example, in fact, therefore</em>). Spojují-li dvě věty, pak středník.</td><td><span class="ok"><em>The plan, however, failed.</em></span> / <span class="ok"><em>Some cities, for example Brno, grew fast.</em></span><br><span class="ok"><em>It was cheap; however, it broke.</em></span> <span class="bad"><em>It was cheap, however, it broke.</em></span></td><td><span class="tag err">chyba</span> (comma splice)</td></tr>
+<tr><td>15</td><td><b><em>However</em> + přídavné jméno / věta</b> („jakkoli“): čárka až za celou vedlejší větou</td><td><span class="ok"><em>However hard he tried, he failed.</em></span><br><span class="bad"><em>However, hard he tried, he failed.</em></span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>16</td><td><b>Přechodníkové (participiální) vazby</b></td><td><span class="ok"><em>Having finished the test, she left.</em></span> / <span class="ok"><em>Walking home, I met Tom.</em></span></td><td><span class="tag err">chyba</span> když chybí na začátku</td></tr>
+<tr><td>17</td><td><b>Výčet</b> tří a více položek</td><td><span class="ok"><em>bread, milk, and eggs</em></span> (oxfordská čárka) i <span class="ok"><em>bread, milk and eggs</em></span></td><td><span class="tag opt">volba</span>, ale buďte jednotní</td></tr>
+<tr><td>18</td><td><b>Souřadná přídavná jména</b> (dají se prohodit a spojit <em>and</em>); nikdy mezi posledním přídavným jménem a podstatným jménem</td><td><span class="ok"><em>a difficult, stubborn child</em></span> × <span class="ok"><em>a white wooden house</em></span> (bez čárky)<br><span class="bad"><em>a difficult, stubborn, child</em></span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>19</td><td><b>Přístavek, který neurčuje</b></td><td><span class="ok"><em>Mr Brown, our new teacher, is from Leeds.</em></span><br>určující bez čárek: <span class="ok"><em>the writer Karel Čapek</em></span></td><td><span class="tag err">chyba</span> když chybí</td></tr>
+<tr><td>20</td><td><b>Oslovení, tázací dovětek, <em>yes/no</em></b></td><td><span class="ok"><em>Thank you, Petr.</em></span> / <span class="ok"><em>It's late, isn't it?</em></span> / <span class="ok"><em>Yes, I do.</em></span></td><td><span class="tag err">chyba</span> když chybí</td></tr>
+<tr><td>21</td><td><b>Přímá řeč</b>: uvozovací věta se odděluje čárkou, při větě za přímou řečí uvnitř uvozovek (BrE i AmE)</td><td><span class="ok"><em>She said, "I'm tired."</em></span> / <span class="ok"><em>"I'm tired," she said.</em></span></td><td><span class="tag err">chyba</span> když chybí; jednoduché × dvojité uvozovky <span class="tag opt">volba</span></td></tr>
+</table>
+
+<h2>C. Čísla, data a dopisy</h2>
+<table>
+<tr><th>#</th><th>Pravidlo</th><th>Příklad</th><th></th></tr>
+<tr><td>22</td><td><b>Tisíce</b> se oddělují čárkou, <b>desetinná</b> místa tečkou</td><td><span class="ok"><em>1,200 students; 3.5%</em></span><br><span class="cz">česky 1 200 studentů; 3,5 %</span></td><td><span class="tag err">chyba</span></td></tr>
+<tr><td>23</td><td><b>Data</b></td><td>BrE <span class="ok"><em>12 November 2026</em></span> (bez čárky), AmE <span class="ok"><em>November 12, 2026</em></span>; pokračuje-li věta, v AmE čárka i za rokem: <span class="ok"><em>On July 22, 1959, he…</em></span></td><td><span class="tag opt">volba</span> podle varianty</td></tr>
+<tr><td>24</td><td><b>Místa: město, země</b>; pokračuje-li věta, čárka i za zemí</td><td><span class="ok"><em>Birmingham, England, is…</em></span></td><td><span class="tag err">chyba</span> když chybí</td></tr>
+<tr><td>25</td><td><b>Oslovení a závěr dopisu</b></td><td>BrE <span class="ok"><em>Dear Mr Smith,</em></span> / <span class="ok"><em>Yours sincerely,</em></span> (často i bez čárky); AmE formálně <span class="ok"><em>Dear Mr. Smith:</em></span> / <span class="ok"><em>Sincerely,</em></span></td><td><span class="tag opt">volba</span> podle varianty</td></tr>
+</table>
+
+<h2>Rychlý test pro anotaci</h2>
+<ul>
+  <li><b>Dají se obě části spojené čárkou říct samostatně jako věty?</b> Pokud ano, jde o comma splice a je to chyba. Opraví ji tečka, středník nebo spojka (<em>and, but, so</em>).</li>
+  <li><b>Jde vztažnou větu vynechat, aniž by se změnilo, o kom se mluví?</b> Pokud ano, patří do čárek (pravidlo 10). Pokud ne, čárky v ní nejsou (pravidlo 2).</li>
+  <li><b>Stojí čárka před <em>that</em>, před slovem nepřímé otázky (<em>where, what, if, why</em>), před <em>to</em>, <em>than</em> nebo <em>as</em>?</b> Téměř jistě jde o přenos z češtiny a je to chyba. <b>Pozor na výjimku:</b> před vsuvkovou vztažnou větou (<em>…, who / which / where …</em>) čárka naopak být musí (pravidla 10 a 11).</li>
+  <li><b>Věc stylu, ne chyba:</b> oxfordská čárka, čárka po krátkém úvodním příslovci, čárka před <em>and / but / or</em> mezi dvěma hlavními větami a jednoduché či dvojité uvozovky.</li>
+</ul>
+<p class="muted">Zdroje: Cambridge Grammar (dictionary.cambridge.org/grammar), Purdue OWL (owl.purdue.edu, Commas), Internetová jazyková příručka ÚJČ (prirucka.ujc.cas.cz). Kde se varianty liší, je to označené jako volba.</p>
+</main>
+<p class="inkrema-verze"><small>Beta, verze z 19. 11. 2026 (91244b0) · Navrhla AI (Claude), zkontroloval Gemini Argon proti Cambridge Grammar, Purdue OWL a ÚJČ</small></p>
+</body>
+</html>
